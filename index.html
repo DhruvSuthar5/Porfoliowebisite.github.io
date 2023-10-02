@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content ="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/345cb28317.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class = "container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick= "openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software Developer</p>
+            <h1>Hi, I'm <span>Dhruv</span><br>Suthar From India</h1>
+        </div>
+    </div>
+</div>
+<!--------------About---------------->
+<div id = "about">
+    <div class ="container">
+
+        <div class = "row">
+            <div class = "about-col-1">
+                <img src="images/user.jpg">
+            </div>
+
+            <div class = "about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello there, you already know my name is Dhruv Suthar. I completed my graduation in mechanical engineering. Here, I completed diploma course in Automation and Robotics, and now I am enrolled in Software Engineering as I always want to explore this field.</p>
+            
+            <div class="tab-titles">
+                <p class ="tab-links active-link" onclick=" opentab('skills')">Skills</p>
+                <p class ="tab-links" onclick=" opentab('experience')">Experience</p>
+                <p class ="tab-links" onclick=" opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id ="skills">
+                <ul>
+                    <li><span>SolidWorks</span><br>3D Modelling adn Drafting</li>
+                    <li><span>AutoCAD</span><br>Drafting</li>
+                    <li><span>PLC Programming</span><br>Program the logic for the PLC using Siemens Software</li>
+                    <li><span>Web Development</span><br>Web App Development</li>
+                    <li><span>App Development</span><br>Building Android/iOS Apps</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id ="experience">
+                <ul>
+                    <li><span>January 2023 - Current</span><br>I have been working as a Lab assistant in College.</li>
+                    <li><span>2020 - 2021 </span><br>I worked as Design engineer at Hexacool Process Cooling Company.</li>
+
+                </ul>
+            </div>
+            <div class="tab-contents" id ="education">
+                <ul>
+                    <li><span>2023</span><br>Diploma in Automation and Robotics</li>
+                    <li><span>2022</span><br>3D Modeling Training at MSME</li>
+                    <li><span>2020</span><br>Bachelor's in Mechnical Engineering </li>
+                    
+                </ul>
+            </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------- Services --------------------------->
+<div id ="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web design is the art of blending creativity with functionality, crafting visually appealing and user-friendly websites that leave a lasting impression and engage audiences effectively.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>3D Modelling and Drafting</h2>
+                <p>Transforming ideas into tangible reality, our 3D modeling and drafting services blend creativity with precision. From intricate designs to technical blueprints, we bring your concepts to life with unparalleled accuracy and expertise.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>Crafting intuitive user experiences and visually captivating interfaces, our app design expertise transforms innovative ideas into seamless digital solutions. Elevate your brand with our sleek, user-friendly designs that engage users and drive exceptional app performance.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!------------Portfolio-------------------->
+<div id ="portfolio">
+    <div class = "container">
+        <h1 class = "sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/ImageForNews_(1).jpg">
+                <div class="layer">
+                    <h3>IMPROVEMENT IN HEAT EXCHANGER BY USING TWISTED TUBE AND NANO FLUID</h3>
+                    <p>We did this project to improve the effiency of the Heat Exchanger doing few modification.</p>
+                    <a href="C:\Users\Dhruv\Desktop\My_Portfolio\pdf\Improvement in Heat Exchanger By using Twisted Tube And Nanofluids.pdf" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>ELECTRICITY GENERATED BY SPEED BREAKER</h3>
+                    <p>We figure how we can use speed breaker to generate energy.</p>
+                    <a href="C:\Users\Dhruv\Desktop\My_Portfolio\pdf\ELECTRICITY GENERATED BY SPEED BREAKER D.E. REPORT 2B new.pdf" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Hacksaw Machine</h3>
+                    <p>In this project we tried to improve the productivity of simple machine.</p>
+                    <a href="C:\Users\Dhruv\Desktop\My_Portfolio\pdf\Hacksaw Machine D.E. REPORT 1B.pdf" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class = "btn">See more</a>
+    </div>
+
+</div>
+<!--------------------- Contact ---------------------->
+<div id ="contact">
+    <div class ="container">
+        <div class = "row">
+            <div class = "contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>dsuthar9@my.centennialcollege.ca</p>
+                <p><i class="fa-solid fa-phone"></i>+1 (905) 353 5074</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100010576335525&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/DhruvSuthar23?t=DYBcbBx67nGZD0xq22KjPw&s=09"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://instagram.com/dhruv_suthar23?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/dhruv-suthar-9aa388225"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class = "btn btn2">Download CV</a>
+            </div>
+            <div class = "contact-right">
+                <form name ="submit-to-google-sheet">
+                    <input type="text" name ="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder = "Your Message"></textarea>
+                    <button type = "submit" class ="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class ="copyright">
+        <p>Copyright @ Dhruv</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzdq8JgGs80XQ7nxGIksHTLBRWeU25uoGCF2CUN21zPPvUGNM2xqzdGDxjv6QIE5YkD/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Details Submitted Succesfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000) //5000 miliseconds
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+</body>
+</html> 
+
+
